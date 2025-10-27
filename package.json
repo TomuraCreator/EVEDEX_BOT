@@ -1,0 +1,18 @@
+{
+  "name": "evedex-bot",
+  "version": "1.0.0",
+  "description": "Trading volume generator bot for Evedex exchange",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["evedex", "trading", "bot"],
+  "author": "TomuraCreator",
+  "license": "MIT",
+  "dependencies": {
+    "@evedex/exchange-bot-sdk": "latest",
+    "ws": "^8.14.2",
+    "dotenv": "^16.3.1"
+  }
+}
